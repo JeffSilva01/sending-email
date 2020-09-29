@@ -5,7 +5,7 @@ export default (req, res) => {
   const { email, name, texto, subject } = req.body
   
   const user = "jeffsilva01.dev@gmail.com"
-  const pass = "@Seagatebb01"
+  const pass = "senha do email"
 
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com", //servidor de envio 
